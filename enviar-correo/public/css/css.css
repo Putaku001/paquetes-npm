@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-send{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 1%;
+}
+.a1{
+    padding: 1em;
+    background: #948261d7;
+    border: 1px solid #000000;
+    margin-top: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    color: #fff;
+}

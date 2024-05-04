@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
+    <title>document</title>
+</head>
+<body>
+    <h2>Enviar Correo</h2>
+    <form id="emailForm" class="a1">
+        <label for="recipient">Destinatario:</label>
+        <input type="email" id="recipient" required><br><br>
+        
+        <label for="subject">Asunto:</label>
+        <input type="text" id="subject" required><br><br>
+        
+        <label for="body">Cuerpo:</label><br>
+        <textarea id="body" rows="4" cols="50" required></textarea><br><br>
+        
+        <button class="btn-send" type="button" id="sendButton">Enviar Correo</button>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
